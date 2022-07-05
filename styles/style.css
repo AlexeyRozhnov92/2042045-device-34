@@ -198,14 +198,26 @@ a {
 }
 
 .enter-link::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
     background-image: url('../images/account.svg');
 }
 
 .compare-link::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
     background-image: url('../images/compare.svg');
 }
 
 .bascet-link::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
     background-image: url('../images/bascet.svg');
 }
 
@@ -837,8 +849,7 @@ html {
 
 .sorting-button {
     width: 320px;
-    position: relative;
-    right: 550px;
+  
 }
 
 .sorting-buttons {
