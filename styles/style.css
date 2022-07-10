@@ -32,24 +32,37 @@ body {
     background-color: #ffffff;
 }
 
-header {
-
-    background: linear-gradient(#ffffff 40px, #ffe17f 60px);
+.page-header {
+    background: linear-gradient(#ffffff 40px, #ffe17f 40px);
     position: relative;
-    height: 340px;
-    margin-top: 40px;
+    min-height: 340px;
 }
 
+.header-bottom{
+    display: flex;
+    padding-right: 60px;
+    justify-content: space-between;
+}
+
+/*
+.button-dropdown{
+    display: flex;
+    min-width: 293px;
+    
+}
+
+.header-catalog{
+}*/
+
 .logo-position {
-    position: relative;
-    bottom: 10px;
-    left: 60px;
+    padding-top: 20px;
+    padding-left: 60px;
 }
 
 .copter-image {
     position: absolute;
     width: 560px;
-    height: 401px;
+    min-height: 401px;
     left: 730px;
     top: 311px;
 
@@ -58,6 +71,24 @@ header {
 .container {
     width: 1160px;
     margin: 0 auto;
+}
+
+.navigation {
+    /*padding: 0 38px 0 44px;*/
+    padding-top: 20px;
+    padding-left: 60px;
+}
+
+.navigation-form {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 517px;
+    border: 2px solid #000000;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 50px/50px;
 }
 
 .footer-container {
@@ -69,8 +100,8 @@ header {
     flex-grow: 1;
 }
 
-footer {
-    height: 321px;
+.page-footer {
+    min-height: 321px;
     background: #444444;
 }
 
@@ -82,18 +113,15 @@ footer {
 
 .authorization {
     display: flex;
-    width: 500px;
-    justify-content: space-around;
+    width: 495px;
+    justify-content: space-between;
+    padding-right: 110px;
+
 }
 
 .header-top {
     display: flex;
     justify-content: space-between;
-}
-
-.header-bottom {
-    display: flex;
-    justify-content: space-between
 }
 
 .header-catalog {
@@ -129,7 +157,14 @@ a {
 }
 
 .visually-hidden {
-    font-size: 0;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .search {
@@ -142,6 +177,21 @@ a {
     border-style: solid;
     border-color: #000000;
     margin-left: 0px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 8px;
+    width: 159px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    border-left: 2px solid #000000;
+    font-size: 16px;
+    font-family: "Rubik", sans-serif;
+    line-height: 20px;
+    overflow-wrap: break-word;
+    background-color: transparent;
+    color: #000000;
+    cursor: pointer;
+
 }
 
 .mail-list {
@@ -221,12 +271,11 @@ a {
     background-image: url('../images/compare.svg');
 }
 
-.compare-position {
-    position: relative;
-    top: 15px;
-    left: 20px;
-}
 
+.compare-position {
+    padding-left: 140px;
+}
+/*
 .bascet-position {
     position: relative;
     top: 15px;
@@ -237,6 +286,12 @@ a {
     position: relative;
     top: 15px;
     right: 85px;
+}
+*/
+
+.rty {
+    padding-right: 0px;
+    padding-top: 0px;
 }
 
 .button-dropdown {
@@ -298,9 +353,6 @@ a {
 }
 
 .plus {
-    position: relative;
-    margin-right: 293px;
-    top: 10px;
     background: rgba(0, 0, 0, 0);
     border: rgba(0, 0, 0, 0);
 }
@@ -822,7 +874,7 @@ html {
     top: 0%;
     bottom: 9.54%;
     width: 520px;
-    height: 493px;
+    min-height: 493px;
 }
 
 .address {
@@ -831,7 +883,7 @@ html {
     top: 0%;
     bottom: 0%;
     width: 532px;
-    height: 545px;
+    min-height: 545px;
 }
 
 .mailing {
@@ -842,7 +894,7 @@ html {
 .shop-information {
     display: flex;
     width: 1160px;
-    height: 545px;
+    min-height: 545px;
     margin: 0% auto;
 }
 
