@@ -34,25 +34,23 @@ body {
 
 .page-header {
     background: linear-gradient(#ffffff 40px, #ffe17f 40px);
-    position: relative;
     min-height: 340px;
 }
 
 .header-bottom{
     display: flex;
-    padding-right: 60px;
-    justify-content: space-between;
+    padding-top: 40px;
 }
 
-/*
-.button-dropdown{
+.dilivery-box {
     display: flex;
-    min-width: 293px;
-    
+    padding-bottom: 40px;
+    flex-wrap: wrap;
 }
 
-.header-catalog{
-}*/
+.dilivery-margin {
+    margin-right: 47px;
+}
 
 .logo-position {
     padding-top: 20px;
@@ -60,7 +58,6 @@ body {
 }
 
 .copter-image {
-    position: absolute;
     width: 560px;
     min-height: 401px;
     left: 730px;
@@ -106,7 +103,6 @@ body {
 }
 
 .copter-position {
-    position: relative;
     bottom: 325px;
     right: 40px;
 }
@@ -135,18 +131,6 @@ body {
     color: #000000;
     margin-right: 24px;
 }
-
-.dilivery-box {
-    position: relative;
-    top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.dilivery-margin {
-    margin-right: 47px;
-}
-
 
 li {
     list-style-type: none;
@@ -226,7 +210,6 @@ a {
     font-weight: 800;
     font-size: 50px;
     line-height: 50px;
-    position: relative;
     left: 0px;
     top: 65px;
     color: #000000;
@@ -239,7 +222,6 @@ a {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    position: relative;
     left: 600px;
     bottom: 60px;
     color: #444444;
@@ -277,31 +259,17 @@ a {
 }
 /*
 .bascet-position {
-    position: relative;
     top: 15px;
     right: 15px;
 }
 
 .enter-position {
-    position: relative;
     top: 15px;
     right: 85px;
 }
 */
 
-.rty {
-    padding-right: 0px;
-    padding-top: 0px;
-}
-
-.button-dropdown {
-    position: relative;
-    top: 50px;
-    left: 60px;
-}
-
 .slogan-position {
-    position: relative;
     bottom: 50px;
     left: 50px;
     width: 545px;
@@ -605,7 +573,6 @@ a {
     letter-spacing: -0.02em;
     margin-top: 15px;
     margin-right: 40px;
-    position: relative;
     color: #000000;
 
 }
@@ -662,7 +629,6 @@ a {
 }
 
 .left {
-    position: relative;
     bottom: 30px;
     left: 20px;
     background: rgba(0, 0, 0, 0);
@@ -674,7 +640,6 @@ a {
 }
 
 .right {
-    position: relative;
     bottom: 30px;
     left: 500px;
     background: rgba(0, 0, 0, 0);
@@ -794,7 +759,6 @@ html {
     height: 200px;
     background-repeat: no-repeat;
     background-position: center;
-    position: absolute;
     bottom: 0px;
     left: 600px;
 }
@@ -807,10 +771,6 @@ html {
     line-height: 30px;
     color: #444444;
     width: 448px;
-}
-
-.position {
-    position: relative;
 }
 
 .popover {
@@ -918,7 +878,6 @@ html {
 .rings {
     display: flex;
     flex-direction: row;
-    position: relative;
     left: 150px;
     top: 40px;
 }
@@ -934,13 +893,11 @@ html {
 }
 
 .footer-background {
-    position: relative;
     left: 10px;
     top: 60px;
 }
 
 .footer-link-position {
-    position: relative;
     left: 320px;
     top: 40px;
 }
@@ -948,13 +905,11 @@ html {
 .footer-phone {
     display: flex;
     flex-direction: column;
-    position: relative;
     left: 985px;
     bottom: 75px;
 }
 
 .footer-logo {
-    position: relative;
     top: 60px;
     left: 60px;
 }
@@ -981,7 +936,6 @@ html {
 
 .catalog-item {
     width: 840px;
-    position: relative;
     bottom: 450px;
     left: 400px;
 }
